@@ -1,0 +1,91 @@
+body{
+  display: block;
+  justify-content: center;
+  align-items: center;
+  
+  background: #12c2e9;  
+  background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrme 26+, Opera 12+, Safari 7+ */
+  
+}
+.navbar{
+  background: -webkit-linear-gradient(to right, #fff,#c471ed,#f64f59);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #fff, #c471ed, #f64f59); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color:rgb(0, 0, 0) !important; 
+  
+}
+.AdminAvtar{
+   display: flex;
+   flex-direction: row; 
+   justify-content: space-around;
+   align-items: center; 
+   width: 20%;
+}
+.AdminAvtar>img{
+  border-radius: 50%; 
+}
+.AdminAvtar>p{
+  margin-top:10px;
+  cursor: pointer;
+  color: white;
+
+}
+.log{
+  font-weight: bold;
+}
+
+
+
+.content{
+  padding: 30px 50px;
+  min-height: 100vh;
+  /* padding-top: 80px;
+  display: flex;
+  flex-direction: column; */
+}
+.content>button{
+  float: right !important;
+  margin-top: 20px;
+  margin-right: 50px;
+  border: none;
+  outline: none;
+  padding : 8px;
+  cursor: pointer;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  width: 200px;
+}
+.content>button:hover{
+  transform: scale(1.07);
+}
+.candidates{
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.card{
+  margin: 10px;
+}
+.card:hover{
+  transform: scale(1.004);
+  cursor: pointer;
+}
+.body-content{
+  text-align: center;
+}
+.cand{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 667px) {
+  .AdminAvtar{
+    width: 35%;    
+  }
+  .result{
+    width: 98%;
+  }
+  
+}
